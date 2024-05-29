@@ -1,0 +1,6 @@
+@AcessControlAPI_HostAddress = http://localhost:5089
+
+GET {{AcessControlAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
