@@ -1,20 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using AcessControlAPI.Models;
+using AccessControlAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AcessControlAPI.Controllers
+namespace AccessControlAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class LoginController : Controller
+    public class LoginController(ApplicationDbContext context) : Controller
     {
-        private readonly ApplicationDbContext _context;
-        private readonly JwtTokenGen _jwtTokenGenerator;
-        public LoginController(ApplicationDbContext context)
-        {
-            _context = context;
-            _jwtTokenGenerator = new JwtTokenGen();
-        }
+        private readonly ApplicationDbContext _context = context;
+        private readonly JwtTokenGen _jwtTokenGenerator = new();
 
         [HttpPost]
         public async Task<IActionResult> ValidateUser([FromBody] UserRequestModel validationRequest)

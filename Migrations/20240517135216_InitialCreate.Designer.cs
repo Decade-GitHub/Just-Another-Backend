@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using AcessControlAPI.Models;
+using AccessControlAPI.Models;
 
 #nullable disable
 
-namespace AcessControlAPI.Migrations
+namespace AccessControlAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240517135216_InitialCreate")]

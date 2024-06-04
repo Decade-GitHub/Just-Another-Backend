@@ -1,19 +1,15 @@
-using AcessControlAPI.Models;
+using AccessControlAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Text.RegularExpressions;
 
-namespace AcessControlAPI.Controllers
+namespace AccessControlAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class UsersController : ControllerBase
+    public class UsersController(ApplicationDbContext context) : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
-        public UsersController(ApplicationDbContext context)
-        {
-            _context = context;
-        }
+        private readonly ApplicationDbContext _context = context;
 
         [HttpPut]
         public async Task<IActionResult> CreateUser([FromBody] UserRequestModel request)
@@ -64,7 +60,7 @@ namespace AcessControlAPI.Controllers
         {
             return await _context.Users.AnyAsync(u => u.Email == email);
         }
-        private bool ValidEmail(string email)
+        private static bool ValidEmail(string email)
         {
             return Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$");
         }

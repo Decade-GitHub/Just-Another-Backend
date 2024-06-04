@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AcessControlAPI")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("AccessControlAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+202d387bed4ec836c62e12e973f5a225a9070029")]
-[assembly: System.Reflection.AssemblyProductAttribute("AcessControlAPI")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AcessControlAPI")]
+[assembly: System.Reflection.AssemblyProductAttribute("AccessControlAPI")]
+[assembly: System.Reflection.AssemblyTitleAttribute("AccessControlAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

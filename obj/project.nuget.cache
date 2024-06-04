@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8mRO7bu9LvY34qC3b7ZJWHgPXtERMQa4ZIbCCblGHp7p7IOzB5olnnRUL0hLun3hdM0oUJRhXCTEJn+S4B8JZQ==",
+  "dgSpecHash": "GO0oQWfVDzhDxTxNDnz5JQgVsuWDSSjVIlNnMBh9RRpy2OAA2R6bby7T0cQDmqb6gtPBF7xjqXDkSKlgVY5/lQ==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\AcessControlAPI\\AcessControlAPI.csproj",
+  "projectFilePath": "D:\\Projetos\\AccessControlAPI\\AccessControlAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaspe\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\jaspe\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos\\AccessControlAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|d:\\projetos\\accesscontrolapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|d:\\projetos\\accesscontrolapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|d:\\projetos\\accesscontrolapi\\models\\usermodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|solutionrelative:models\\usermodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|d:\\projetos\\accesscontrolapi\\models\\jwttokengen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|solutionrelative:models\\jwttokengen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|d:\\projetos\\accesscontrolapi\\controllers\\validationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|solutionrelative:controllers\\validationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|d:\\projetos\\accesscontrolapi\\models\\jwttokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|solutionrelative:models\\jwttokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtTokenGen.cs",
+              "DocumentMoniker": "D:\\Projetos\\AccessControlAPI\\Models\\JwtTokenGen.cs",
+              "RelativeDocumentMoniker": "Models\\JwtTokenGen.cs",
+              "ToolTip": "D:\\Projetos\\AccessControlAPI\\Models\\JwtTokenGen.cs",
+              "RelativeToolTip": "Models\\JwtTokenGen.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:59:58.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Projetos\\AccessControlAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Projetos\\AccessControlAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwEIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:01:32.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ValidationController.cs",
+              "DocumentMoniker": "D:\\Projetos\\AccessControlAPI\\Controllers\\ValidationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ValidationController.cs",
+              "ToolTip": "D:\\Projetos\\AccessControlAPI\\Controllers\\ValidationController.cs",
+              "RelativeToolTip": "Controllers\\ValidationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:56:17.55Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Projetos\\AccessControlAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Projetos\\AccessControlAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:00:48.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserModels.cs",
+              "DocumentMoniker": "D:\\Projetos\\AccessControlAPI\\Models\\UserModels.cs",
+              "RelativeDocumentMoniker": "Models\\UserModels.cs",
+              "ToolTip": "D:\\Projetos\\AccessControlAPI\\Models\\UserModels.cs",
+              "RelativeToolTip": "Models\\UserModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:57:45.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtTokenValidator.cs",
+              "DocumentMoniker": "D:\\Projetos\\AccessControlAPI\\Models\\JwtTokenValidator.cs",
+              "RelativeDocumentMoniker": "Models\\JwtTokenValidator.cs",
+              "ToolTip": "D:\\Projetos\\AccessControlAPI\\Models\\JwtTokenValidator.cs",
+              "RelativeToolTip": "Models\\JwtTokenValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:56:23.821Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

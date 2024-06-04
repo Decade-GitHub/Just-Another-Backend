@@ -1,5 +1,5 @@
-using AcessControlAPI;
-using AcessControlAPI.Models;
+using AccessControlAPI;
+using AccessControlAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 

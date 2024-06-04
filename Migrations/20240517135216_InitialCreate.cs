@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace AcessControlAPI.Migrations
+namespace AccessControlAPI.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

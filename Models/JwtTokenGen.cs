@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using Jose;
 
-namespace AcessControlAPI.Models
+namespace AccessControlAPI.Models
 {
     public class JwtTokenGen
     {
@@ -18,7 +18,7 @@ namespace AcessControlAPI.Models
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Email, email)
+                    new(ClaimTypes.Email, email)
                 }),
                 Expires = tokenExpiration,
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)

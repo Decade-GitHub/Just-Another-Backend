@@ -1,4 +1,4 @@
-﻿namespace AcessControlAPI.Models
+﻿namespace AccessControlAPI.Models
 {
     public class ErrorResult
     {

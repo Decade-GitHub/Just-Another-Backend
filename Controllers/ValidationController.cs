@@ -1,9 +1,9 @@
-﻿using AcessControlAPI.Models;
+﻿using AccessControlAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using System.IdentityModel.Tokens.Jwt;
 
-namespace AcessControlAPI.Controllers
+namespace AccessControlAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

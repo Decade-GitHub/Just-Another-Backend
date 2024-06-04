@@ -9583,11 +9583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\AcessControlAPI\\AcessControlAPI.csproj",
-      "projectName": "AcessControlAPI",
-      "projectPath": "D:\\Projetos\\AcessControlAPI\\AcessControlAPI.csproj",
+      "projectUniqueName": "D:\\Projetos\\AccessControlAPI\\AccessControlAPI.csproj",
+      "projectName": "AccessControlAPI",
+      "projectPath": "D:\\Projetos\\AccessControlAPI\\AccessControlAPI.csproj",
       "packagesPath": "C:\\Users\\jaspe\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\AcessControlAPI\\obj\\",
+      "outputPath": "D:\\Projetos\\AccessControlAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jaspe\\AppData\\Roaming\\NuGet\\NuGet.Config",
