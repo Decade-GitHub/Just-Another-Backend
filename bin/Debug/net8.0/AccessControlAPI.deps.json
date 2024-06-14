@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "AcessControlAPI/1.0.0": {
+      "AccessControlAPI/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.5",
@@ -17,7 +17,7 @@
           "jose-jwt": "5.0.0"
         },
         "runtime": {
-          "AcessControlAPI.dll": {}
+          "AccessControlAPI.dll": {}
         }
       },
       "Azure.Core/1.35.0": {
@@ -1729,7 +1729,7 @@
     }
   },
   "libraries": {
-    "AcessControlAPI/1.0.0": {
+    "AccessControlAPI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

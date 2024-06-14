@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace AccessControlAPI.Models
+﻿namespace AccessControlAPI.Models
 {
     public class User
     {
@@ -12,9 +10,5 @@ namespace AccessControlAPI.Models
     {
         public string? Email { get; set; }
         public string? Password { get; set; }
-    }
-    public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
-    {
-        public DbSet<User> Users { get; set; }
     }
 }

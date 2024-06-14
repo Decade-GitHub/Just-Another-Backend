@@ -7,14 +7,12 @@ using System.Security.Claims;
 
 namespace AccessControlAPI.Models
 {
-    public class JwtTokenValidator(string key)
+    public class JwtTokenValidator
     {
-        private readonly byte[] _key = Encoding.ASCII.GetBytes(key);
-
         public ClaimsPrincipal ValidateToken(string encryptedToken)
         {
-            var decryptedToken = Jose.JWT.Decode(encryptedToken, _key);
-
+            var key = Encoding.ASCII.GetBytes("f829c1b6f4b49ac0fef262342b2d8d88");
+            var decryptedToken = Jose.JWT.Decode(encryptedToken, key);
             var tokenHandler = new JwtSecurityTokenHandler();
             var validationParameters = new TokenValidationParameters
             {
@@ -22,7 +20,7 @@ namespace AccessControlAPI.Models
                 ValidateAudience = false,
                 ValidateLifetime = true,
                 ValidateIssuerSigningKey = true,
-                IssuerSigningKey = new SymmetricSecurityKey(_key)
+                IssuerSigningKey = new SymmetricSecurityKey(key)
             };
             var principal = tokenHandler.ValidateToken(decryptedToken, validationParameters, out _);
 
