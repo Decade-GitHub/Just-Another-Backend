@@ -7,11 +7,14 @@ using System.Security.Claims;
 
 namespace AccessControlAPI.Models
 {
-    public class JwtTokenValidator
+    public class JwtTokenValidator(IConfiguration configuration)
     {
+        private readonly IConfiguration _configuration = configuration;
+
         public ClaimsPrincipal ValidateToken(string encryptedToken)
         {
-            var key = Encoding.ASCII.GetBytes("f829c1b6f4b49ac0fef262342b2d8d88");
+            var secretString = (_configuration["SecretKey"]?.ToString()) ?? throw new ArgumentException("This is impossible.");
+            var key = Encoding.ASCII.GetBytes(secretString);
             var decryptedToken = Jose.JWT.Decode(encryptedToken, key);
             var tokenHandler = new JwtSecurityTokenHandler();
             var validationParameters = new TokenValidationParameters

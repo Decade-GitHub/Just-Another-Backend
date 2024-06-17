@@ -9,34 +9,31 @@ namespace AccessControlAPI.Controllers
 {
     [ApiController]
     [Route("api/cep")]
-    public class CEPController(ApplicationDbContext context, HttpClient httpClient,  JwtTokenValidator tokenValidator) : ControllerBase
+    public class CEPController(ApplicationDbContext context, HttpClient httpClient/*, JwtTokenValidator tokenValidator*/) : ControllerBase
     {
         private readonly ApplicationDbContext _context = context;
         private readonly HttpClient _httpClient = httpClient;
-        private readonly JwtTokenValidator _tokenValidator = tokenValidator;
+        // private readonly JwtTokenValidator _tokenValidator = tokenValidator;
 
         [HttpGet]
-        public async Task<IActionResult> GetCEP([FromHeader(Name = "Authorization")] string authorizationHeader, string IdCEP)
+        public async Task<IActionResult> GetCEP(/*[FromHeader(Name = "Authorization")] string authorizationHeader,*/ string IdCEP)
         {
-            string jwtToken = authorizationHeader;
-
-            if (string.IsNullOrEmpty(authorizationHeader) || !authorizationHeader.StartsWith("Bearer "))
+            /*
+            if (string.IsNullOrEmpty(authorizationHeader))
             {
                 return Unauthorized();
             }
 
-            // Check if token is valid
             ClaimsPrincipal principal;
             try
             {
-                principal = _tokenValidator.ValidateToken(jwtToken);
+                principal = _tokenValidator.ValidateToken(authorizationHeader);
             }
             catch (Exception _)
             {
                 return Unauthorized($"Failed to validate JWT token: {_.Message}");
             }
 
-            // Ensure JWT has desired data
             string? UE = principal.FindFirst(ClaimTypes.Email)?.Value;
             if (string.IsNullOrEmpty(UE) )
             {
@@ -48,7 +45,7 @@ namespace AccessControlAPI.Controllers
             {
                 return Unauthorized("Unauthorized user.");
             }
-
+            */
             if (string.IsNullOrEmpty(IdCEP) || !IsCEPValid(IdCEP))
             {
                 return BadRequest("CEP is null or invalid.");

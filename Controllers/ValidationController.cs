@@ -7,15 +7,10 @@ namespace AccessControlAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ValidationController : ControllerBase
+    public class ValidationController(JwtTokenValidator jwtTokenValidator) : ControllerBase
     {
-        private readonly JwtTokenValidator _jwtTokenValidator;
+        private readonly JwtTokenValidator _jwtTokenValidator = jwtTokenValidator;
 
-        public ValidationController()
-        {
-            var key = "f829c1b6f4b49ac0fef262342b2d8d88";
-            _jwtTokenValidator = new JwtTokenValidator(key);
-        }
         [HttpGet("validate")]
         public IActionResult ValidateToken([FromQuery] string token)
         {

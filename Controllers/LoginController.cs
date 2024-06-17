@@ -6,10 +6,10 @@ namespace AccessControlAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class LoginController(ApplicationDbContext context) : Controller
+    public class LoginController(ApplicationDbContext context, JwtTokenGen jwtTokenGenerator) : Controller
     {
         private readonly ApplicationDbContext _context = context;
-        private readonly JwtTokenGen _jwtTokenGenerator = new();
+        private readonly JwtTokenGen _jwtTokenGenerator = jwtTokenGenerator;
 
         [HttpPost]
         public async Task<IActionResult> ValidateUser([FromBody] UserRequestModel validationRequest)

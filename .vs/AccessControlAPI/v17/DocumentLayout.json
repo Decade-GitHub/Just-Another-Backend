@@ -7,28 +7,8 @@
       "RelativeMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|solutionrelative:controllers\\cepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|d:\\projetos\\accesscontrolapi\\models\\jwttokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|solutionrelative:models\\jwttokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|d:\\projetos\\accesscontrolapi\\models\\jwttokengen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|solutionrelative:models\\jwttokengen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|d:\\projetos\\accesscontrolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|d:\\projetos\\accesscontrolapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|d:\\projetos\\accesscontrolapi\\models\\cepmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|solutionrelative:models\\cepmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|d:\\projetos\\accesscontrolapi\\accesscontrolapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0E9AE44D-DD7F-41BE-B24D-D859121768B6}|AccessControlAPI.csproj|solutionrelative:accesscontrolapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,91 +17,20 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 196,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 392,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projetos\\AccessControlAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Projetos\\AccessControlAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-14T21:48:02.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JwtTokenGen.cs",
-              "DocumentMoniker": "D:\\Projetos\\AccessControlAPI\\Models\\JwtTokenGen.cs",
-              "RelativeDocumentMoniker": "Models\\JwtTokenGen.cs",
-              "ToolTip": "D:\\Projetos\\AccessControlAPI\\Models\\JwtTokenGen.cs",
-              "RelativeToolTip": "Models\\JwtTokenGen.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:41:13.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projetos\\AccessControlAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projetos\\AccessControlAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:33:49.229Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "JwtTokenValidator.cs",
-              "DocumentMoniker": "D:\\Projetos\\AccessControlAPI\\Models\\JwtTokenValidator.cs",
-              "RelativeDocumentMoniker": "Models\\JwtTokenValidator.cs",
-              "ToolTip": "D:\\Projetos\\AccessControlAPI\\Models\\JwtTokenValidator.cs",
-              "RelativeToolTip": "Models\\JwtTokenValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T20:41:24.215Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 196,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AccessControlAPI",
-              "DocumentMoniker": "D:\\Projetos\\AccessControlAPI\\AccessControlAPI.csproj",
-              "RelativeDocumentMoniker": "AccessControlAPI.csproj",
-              "ToolTip": "D:\\Projetos\\AccessControlAPI\\AccessControlAPI.csproj",
-              "RelativeToolTip": "AccessControlAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-14T21:05:57.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "CEPModel.cs",
               "DocumentMoniker": "D:\\Projetos\\AccessControlAPI\\Models\\CEPModel.cs",
               "RelativeDocumentMoniker": "Models\\CEPModel.cs",
               "ToolTip": "D:\\Projetos\\AccessControlAPI\\Models\\CEPModel.cs",
               "RelativeToolTip": "Models\\CEPModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T21:02:50.604Z",
+              "WhenOpened": "2024-06-17T15:27:03.599Z",
               "EditorCaption": ""
             },
             {
@@ -132,9 +41,9 @@
               "RelativeDocumentMoniker": "Controllers\\CEPController.cs",
               "ToolTip": "D:\\Projetos\\AccessControlAPI\\Controllers\\CEPController.cs",
               "RelativeToolTip": "Controllers\\CEPController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAgwAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:09:08.912Z",
+              "WhenOpened": "2024-06-17T15:26:58.31Z",
               "EditorCaption": ""
             }
           ]
